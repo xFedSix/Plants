@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <title>Plants</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./images/safari-pinned-tab.svg"
+      color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <section class="header_main">
+          <img src="./images/logo.svg" alt="logo" />
+          <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="navbar">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li><a href="#about_us">About us</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#price">Price</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+      <div class="overlay"></div>
+    </header>
+    <main>
+      <section class="welcome">
+        <div class="container">
+          <div class="welcome_main">
+            <img src="./images/leafs.svg" alt="leafs" />
+            <div class="welcome_info">
+              <h1>We grow <span>plants</span> and give you oxygen</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+              <div>
+                <button>LEARN MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about_us">
+        <div class="container">
+          <div class="about_main">
+            <div class="about_info">
+              <h2>We are <span>professional experienced</span> gardeners</h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+            </div>
+            <img src="./images/houseplant_1.png" alt="plant_1" />
+          </div>
+        </div>
+      </section>
+      <section class="service" id="service">
+        <div class="container">
+          <div class="service_info">
+            <h2>Service and our projects</h2>
+            <div class="service_info__btn">
+              <button class="service_btn1">Gardens</button>
+              <button class="service_btn2">Lawn</button>
+              <button class="service_btn3">Planting</button>
+            </div>
+          </div>
+          <div id="cards" class="cards">
+            <div class="card card_info1">
+              <img atri src="./images/first_card.png" alt="first" />
+              <h3>Garden care</h3>
+              <p>Lorem Ipsum has been the industry</p>
+            </div>
+            <div class="card card_info3">
+              <img src="./images/second_card.png" alt="second" />
+              <h3>Planting</h3>
+              <p>Lorem Ipsum has been the industry</p>
+            </div>
+            <div class="card card_info2">
+              <img src="./images/third_card.png" alt="third" />
+              <h3>Lawn care</h3>
+              <p>Lorem Ipsum has been the industry</p>
+            </div>
+            <div class="card card_info3">
+              <img src="./images/fourth_card.png" alt="fourth" />
+              <h3>Planting</h3>
+              <p>Lorem Ipsum has been the industry</p>
+            </div>
+            <div class="card card_info1">
+              <img src="./images/fifth_card.png" alt="fifth" />
+              <h3>Garden care</h3>
+              <p>Lorem Ipsum has been the industry</p>
+            </div>
+            <div class="card card_info3">
+              <img src="./images/sixth_card.png" alt="sixth" />
+              <h3>Planting</h3>
+              <p>Lorem Ipsum has been the industry</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prices" id="price">
+        <div class="container">
+          <div>
+            <p>Prices</p>
+            <div id="rates" class="prices_plan">
+              <div id="modal1" class="modalbtn">
+                <button class="modalBtn" data-btn="1">
+                  Basics <img src="./images/accordion_btn.svg" alt="arrow" />
+                </button>
+              </div>
+              <div id="modal2" class="modalbtn">
+                <button class="modalBtn" data-btn="2">
+                  Standard <img src="./images/accordion_btn.svg" alt="arrow" />
+                </button>
+              </div>
+              <div id="modal3" class="modalbtn">
+                <button class="modalBtn" data-btn="3">
+                  Pro care <img src="./images/accordion_btn.svg" alt="arrow" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="prices_text">
+            <h2>Our best <span>gardeners</span> are ready to help you</h2>
+            <button class="btn">Contact us</button>
+            <img src="./images/leafs_small.svg" alt="leafs_small" />
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <img src="./images/contact_woman.png" alt="woman" />
+          <h2>Contact us</h2>
+          <div class="contacts-city">
+            <div class="city-button">
+              <span>City</span>
+            </div>
+            <ul class="city-list">
+              <li class="city-link">Canandaigua, NY</li>
+              <li class="city-link">New York City</li>
+              <li class="city-link">Yonkers, NY</li>
+              <li class="city-link">Sherrill, NY</li>
+            </ul>
+            <div class="card-list">
+              <div class="city-card">
+                <ul class="open-card card-title">
+                  <li class="card-title-text">City:</li>
+                  <li class="card-title-text">Phone:</li>
+                  <li class="card-title-text">Office adress:</li>
+                </ul>
+                <ul class="open-card card-value">
+                  <li class="card-value-text">Canandaigua, NY</li>
+                  <li class="card-value-text">+1 585 393 0001</li>
+                  <li class="card-value-text">151 Charlotte Street</li>
+                </ul>
+                <a href="tel:+15853930001" class="btn button-card">Call us</a>
+              </div>
+              <div class="city-card">
+                <ul class="open-card card-title">
+                  <li class="card-title-text">City:</li>
+                  <li class="card-title-text">Phone:</li>
+                  <li class="card-title-text">Office adress:</li>
+                </ul>
+                <ul class="open-card card-value">
+                  <li class="card-value-text">New York City</li>
+                  <li class="card-value-text">+1 212 456 0002</li>
+                  <li class="card-value-text">9 East 91st Street</li>
+                </ul>
+                <a href="tel:+12124560002" class="btn button-card">Call us</a>
+              </div>
+              <div class="city-card">
+                <ul class="open-card card-title">
+                  <li class="card-title-text">City:</li>
+                  <li class="card-title-text">Phone:</li>
+                  <li class="card-title-text">Office adress:</li>
+                </ul>
+                <ul class="open-card card-value">
+                  <li class="card-value-text">Yonkers, NY</li>
+                  <li class="card-value-text">+1 914 678 0003</li>
+                  <li class="card-value-text">511 Warburton Ave</li>
+                </ul>
+                <a href="tel:+19146780003" class="btn button-card">Call us</a>
+              </div>
+              <div class="city-card">
+                <ul class="open-card card-title">
+                  <li class="card-title-text">City:</li>
+                  <li class="card-title-text">Phone:</li>
+                  <li class="card-title-text">Office adress:</li>
+                </ul>
+                <ul class="open-card card-value">
+                  <li class="card-value-text">Sherrill, NY</li>
+                  <li class="card-value-text">+1 315 908 0004</li>
+                  <li class="card-value-text">14 WEST Noyes BLVD</li>
+                </ul>
+                <a href="tel:+13159080004" class="btn button-card">Call us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="container">
+        <a href="https://github.com/xFedSix"
+          ><img src="./images/footer-data.svg" alt="footer-data"
+        /></a>
+        <a class="school_link" href="https://rs.school/js-stage0/"
+          >Rolling Scopes School</a
+        >
+        <div class="my_links">
+          <ul>
+            <li>
+              <a href="https://github.com/xFedSix"
+                ><img src="./images/Instagram.svg" alt="instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/xFedSix"
+                ><img src="./images/facebook.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/xFedSix"
+                ><img src="./images/twitter.svg" alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/xFedSix"
+                ><img src="./images/pinterest.svg" alt="pinterest"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
